@@ -1,0 +1,2 @@
+# Lexical-analysis-using-Python
+I was always very facinated of everything about compilers, interpreters, parsers and lexers. Now I was wondering how I could implement such things using Python. I decided to write a simple lexer for algebraic expressions that converts a sequence of characters into a sequence of tokens. Till now I just implemented such things using C or C++ and so I started the simplest way as I learned by reading the Dragon Book.

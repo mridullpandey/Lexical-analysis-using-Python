@@ -7,3 +7,4 @@ that resulted in  tokenizer based on regular expressions implementation as
 tokenizerregex.py
 But as life goes, once you have a running solution, a friend tells you that there is a far simpler and more efficient way to implement this. Yeah, you are right, keshav told me about the pyparsing library. I couldn’t resist and so I implemented the same process using an other approach and all this just for fun. This script was again a little bit shorter than the regular expression based solution and brings another benefit: You are not only able to implement the lexical analysis in just a few lines, you could also do the parsing using this library by adding just a few lines. 
 which resulted to pyparsinglex.py file
+For me it was very fascinating to see how many possibilties Python offers to do lexical analysis and how powerful regular expressions are. From one day of fun it became a day of many insights. Maybe I will delving deeper into the topic

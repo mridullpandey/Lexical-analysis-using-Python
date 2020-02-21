@@ -5,3 +5,5 @@ that resulted to lexer.py file
 But this code is very long and it took some time until it worked. Fortunately, I stumbled over Python’s Regex module documentation where I found a simple tokenizer based on regular expressions. So I wrote a new script that uses this technique to parse algebraic expressions. This resulted in a much smaller script:
 that resulted in  tokenizer based on regular expressions implementation as 
 tokenizerregex.py
+But as life goes, once you have a running solution, a friend tells you that there is a far simpler and more efficient way to implement this. Yeah, you are right, keshav told me about the pyparsing library. I couldn’t resist and so I implemented the same process using an other approach and all this just for fun. This script was again a little bit shorter than the regular expression based solution and brings another benefit: You are not only able to implement the lexical analysis in just a few lines, you could also do the parsing using this library by adding just a few lines. 
+which resulted to pyparsinglex.py file
